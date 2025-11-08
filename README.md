@@ -1,4 +1,4 @@
-# Extrato Classifier
+# Fin Classifier
 
 Motor de classificação inteligente de linhas de extrato bancário com suporte a PyOdide.
 
