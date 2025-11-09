@@ -15,7 +15,7 @@ class Rule:
     """
 
     def __init__(self, condition: Condition | None = None):
-        self.condition = condition if condition is not None else AlwaysTrue()
+        self.condition: Condition = condition if condition is not None else AlwaysTrue()
         self.category: str | None = None
         self.priority: int | None = None
         self._validated = False
